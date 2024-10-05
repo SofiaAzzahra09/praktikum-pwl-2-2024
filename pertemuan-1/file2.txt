@@ -1,0 +1,3 @@
+kalimat pertama di file 2
+kalimat kedua
+lorem ipsum

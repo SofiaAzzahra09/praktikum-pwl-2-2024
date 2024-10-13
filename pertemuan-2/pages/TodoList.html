@@ -10,14 +10,14 @@
    <section id="title" class="text-center my-8">
       <h1 class="text-3xl font-bold text-gray-800">Todo List Application</h1>
    </section>
-   <section id="input" class="flex gap-4 mb-8 w-full max-w-lg justify-center">
+   <section id="input" class="flex gap-4 mb-8 justify-center">
       <input type="text" name="assignment" id="assignment" 
-             class="p-2 border border-black rounded-lg w-3/4"
+             class="p-2 border border-black rounded-lg w-full max-w-lg"
              placeholder="Inputkan tugas yang akan dikerjakan ...">
       <input type="button" id="btn-tambah" value="TAMBAH"
-             class="px-4 py-2 font-semibold hover:bg-cyan-300 shadow-md rounded-lg cursor-pointer">
+             class="px-4 py-2 font-semibold bg-emerald-400 hover:bg-cyan-300 shadow-md rounded-lg cursor-pointer">
    </section>
-   <section id="output" class="w-full max-w-md"></section>
+   <section id="output" class="w-full max-w-lg mx-auto flex flex-col items-center"></section>
    <script src="main.js"></script>
 </body>
 </html>

@@ -10,7 +10,7 @@ btnTambah.onclick = (e) => {
    }
    let task = document.createElement("div");
    task.id = `${Date.now()}`;
-   task.className = `flex justify-between items-center p-4 mb-2 bg-white shadow-md rounded-lg`;
+   task.className = `flex justify-between items-center gap-4 p-4 mb-2 bg-white shadow-md rounded-lg`;
    task.innerHTML = `
          <p class="text-lg font-semibold">${title}</p>
          <input type="button" id="btn-selesai" value="SELESAI" data-task="${task.id}"
